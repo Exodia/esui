@@ -232,7 +232,7 @@ define(
             if ((properties.datasource || properties.boxType)
                 && (!properties.rawValue && !properties.value)
                 && (!this.rawValue || !this.rawValue.length)
-                ) {
+            ) {
                 properties.rawValue = [];
             }
 
